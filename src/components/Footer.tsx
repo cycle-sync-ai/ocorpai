@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              AutoDesign<span className="text-accent">Academy</span>
+              OcorpAI
             </h3>
             <p className="text-primary-foreground/80">
               Empowering the next generation of automotive designers.
@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © {currentYear} AutoDesign Academy. All rights reserved.
+            © {currentYear} OcorpAI. All rights reserved.
           </p>
         </div>
       </div>

@@ -3,23 +3,23 @@ import { Palette, Layers, Zap, Users } from "lucide-react";
 const features = [
   {
     icon: Palette,
-    title: "Creative Excellence",
-    description: "Learn fundamental design principles and develop your unique automotive design style.",
+    title: "AI-Powered Learning",
+    description: "Get instant feedback on your designs with our advanced AI analysis system that evaluates your work like a professional mentor.",
   },
   {
     icon: Layers,
-    title: "Industry Tools",
-    description: "Master professional software including Alias, CATIA, and advanced 3D modeling platforms.",
+    title: "Progressive Curriculum",
+    description: "Structured 9-term program from beginner to advanced, covering everything from basic sketching to professional portfolio development.",
   },
   {
     icon: Zap,
-    title: "Fast-Track Learning",
-    description: "Intensive programs designed to get you industry-ready in months, not years.",
+    title: "Industry-Ready Skills",
+    description: "Master CAD tools, materials science, ergonomics, and professional presentation skills that employers demand.",
   },
   {
     icon: Users,
-    title: "Expert Mentorship",
-    description: "Learn directly from designers who've worked at leading automotive brands.",
+    title: "Expert Network",
+    description: "Connect with industry professionals from Tesla, BMW, Aston Martin, and other leading automotive brands for mentorship and career guidance.",
   },
 ];
 
@@ -29,7 +29,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Why Choose AutoDesign Academy?
+            Why Choose OcorpAI?
           </h2>
           <p className="text-lg text-muted-foreground">
             We bridge the gap between passion and profession. Our comprehensive curriculum and expert instructors prepare you for a thriving career in automotive design.

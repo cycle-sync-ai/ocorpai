@@ -17,26 +17,25 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Professional car design workspace"
-          className="w-full h-full object-cover"
+          className="w-full object-contain"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 to-primary/70" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-32">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Master the Art of
-            <span className="text-accent block mt-2">Automotive Design</span>
+          <h1 className="text-5xl text-black md:text-7xl font-bold mb-6 leading-tight">
+            OcorpAI
+            <span className="text-black block mt-2">Automotive Design Academy</span>
           </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
-            Transform your passion into a career. Learn from industry experts and create stunning vehicle designs that push boundaries.
+          <p className="text-xl md:text-2xl text-black mb-8 leading-relaxed">
+            AI-powered automotive design education. Master the fundamentals, connect with industry experts, and build your career in automotive design.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6 shadow-[var(--shadow-glow)]"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-[var(--shadow-glow)]"
             >
               Start Your Journey
               <ArrowRight className="ml-2" size={20} />
@@ -48,7 +47,7 @@ const Hero = () => {
               }}
               size="lg"
               variant="outline"
-              className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="text-lg px-8 py-6 border-2 border-foreground text-foreground hover:bg-foreground hover:text-background"
             >
               Explore Courses
             </Button>

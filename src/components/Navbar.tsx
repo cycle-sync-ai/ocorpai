@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="text-2xl font-bold text-primary">
-            AutoDesign<span className="text-accent">Academy</span>
+            Ocorp<span className="text-accent">AI</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -26,8 +27,11 @@ const Navbar = () => {
             <button onClick={() => scrollToSection("about")} className="text-foreground hover:text-accent transition-colors">
               About
             </button>
-            <button onClick={() => scrollToSection("courses")} className="text-foreground hover:text-accent transition-colors">
-              Courses
+            <button onClick={() => scrollToSection("curriculum")} className="text-foreground hover:text-accent transition-colors">
+              Curriculum
+            </button>
+            <button onClick={() => scrollToSection("experts")} className="text-foreground hover:text-accent transition-colors">
+              Experts
             </button>
             <button onClick={() => scrollToSection("gallery")} className="text-foreground hover:text-accent transition-colors">
               Gallery
@@ -35,8 +39,9 @@ const Navbar = () => {
             <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-accent transition-colors">
               Contact
             </button>
+            <ThemeToggle />
             <Button onClick={() => scrollToSection("contact")} className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Get Started
+              Start Learning
             </Button>
           </div>
 
@@ -57,8 +62,11 @@ const Navbar = () => {
               <button onClick={() => scrollToSection("about")} className="text-foreground hover:text-accent transition-colors text-left">
                 About
               </button>
-              <button onClick={() => scrollToSection("courses")} className="text-foreground hover:text-accent transition-colors text-left">
-                Courses
+              <button onClick={() => scrollToSection("curriculum")} className="text-foreground hover:text-accent transition-colors text-left">
+                Curriculum
+              </button>
+              <button onClick={() => scrollToSection("experts")} className="text-foreground hover:text-accent transition-colors text-left">
+                Experts
               </button>
               <button onClick={() => scrollToSection("gallery")} className="text-foreground hover:text-accent transition-colors text-left">
                 Gallery
@@ -66,8 +74,12 @@ const Navbar = () => {
               <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-accent transition-colors text-left">
                 Contact
               </button>
+              <div className="flex items-center justify-between">
+                <span className="text-foreground">Theme</span>
+                <ThemeToggle />
+              </div>
               <Button onClick={() => scrollToSection("contact")} className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">
-                Get Started
+                Start Learning
               </Button>
             </div>
           </div>

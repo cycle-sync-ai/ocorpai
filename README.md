@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# OcorpAI - Automotive Design Academy
 
-## Project info
+AI-powered automotive design education platform that transforms beginners into industry-ready professionals through structured curriculum, expert mentorship, and intelligent feedback systems.
 
-**URL**: https://lovable.dev/projects/40248d8c-88fd-46a2-803d-1b6e17dbc1df
+## Features
 
-## How can I edit this code?
+- **Progressive Curriculum**: 9-term structured learning pathway from beginner to advanced
+- **AI-Powered Learning**: Instant feedback on design submissions with advanced AI analysis
+- **Expert Mentorship**: Connect with industry professionals from leading automotive brands
+- **Portfolio Management**: Build and showcase professional design portfolios
+- **Interactive Learning**: Video content, documents, and hands-on exercises
 
-There are several ways of editing your application.
+## Technology Stack
 
-**Use Lovable**
+- React 18 with TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- shadcn/ui components
+- Montserrat & Roboto fonts
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/40248d8c-88fd-46a2-803d-1b6e17dbc1df) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Curriculum Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🟢 Beginner Level
+- Car Anatomy & Basic Geometries
+- Sketching Fundamentals  
+- Design Fundamentals
 
-**Use GitHub Codespaces**
+### 🟡 Intermediate Level
+- Advanced Sketching Techniques
+- Materials and Manufacturing
+- Human Factors and Ergonomics
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🔴 Advanced Level
+- Digital Modeling and CAD
+- Physical Modeling and Prototyping
+- Design Presentation & Professional Development
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/40248d8c-88fd-46a2-803d-1b6e17dbc1df) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Private - OcorpAI
